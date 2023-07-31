@@ -20,6 +20,10 @@ kubectl get pod -o yaml
 kubectl get pod {pod_name} -o yaml > {file_name}.yaml
 
 kubectl apply -f {file_name}.yaml
+
+kubectl run {pod_name} --image={image_name}
+# nginx 이미지를 사용해 nginx 라는 이름으로 pod 생성 및 실행
+kubectl run nginx --image=nginx
 ```
 
 
