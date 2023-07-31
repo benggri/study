@@ -14,9 +14,12 @@ kubectl apply
 # pod list
 kubectl get pods
 
-kubectl get pod {pod_name} -o yaml > {file_name}.yaml
-kubectl get pod -o yaml
+kubectl describe pod {pod_name}
 
+kubectl get pod -o yaml
+kubectl get pod {pod_name} -o yaml > {file_name}.yaml
+
+kubectl apply -f {file_name}.yaml
 ```
 
 
