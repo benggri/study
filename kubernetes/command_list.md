@@ -7,6 +7,7 @@ kubectl set
 kubectl describe
 kubectl run {pod_name}
 kubectl create [type] {type_name}
+kubectl replace
 kubectl apply
 kubectl taint nodes {node_name} {key}={value}:{schedule}
 kubectl label [type] {type_name} {key}={value}
@@ -36,7 +37,8 @@ kubectl get nodes
 kubectl describe node {node_name}
 
 kubectl taint nodes {node_name} {key}={value}:{schedule}
-kubectl label nodes {node_name} {key}={value}
+kubectl label nodes 경
+kubectl replace --force -f {file_name}.yaml
 ```
 
 ## Deployment
