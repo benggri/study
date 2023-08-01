@@ -5,8 +5,11 @@
 kubectl get
 kubectl set
 kubectl describe
-kubectl create 
-kubectl apply 
+kubectl run {pod_name}
+kubectl create [type] {type_name}
+kubectl apply
+kubectl taint nodes {node_name} {key}={value}:{schedule}
+kubectl label [type] {type_name} {key}={value}
 ```
 
 ## POD
@@ -26,6 +29,24 @@ kubectl run {pod_name} --image={image_name}
 kubectl run nginx --image=nginx
 ```
 
+## Node
+```bash
+kubectl get nodes
+
+kubectl describe node {node_name}
+
+kubectl taint nodes {node_name} {key}={value}:{schedule}
+kubectl label nodes {node_name} {key}={value}
+```
+
+## Deployment
+```bash
+kubectl get deployments
+
+kubectl describe deployment {deployment_name}
+
+kubectl 
+```
 
 ## Service Account
 ```bash
