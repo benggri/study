@@ -44,8 +44,6 @@ kubectl label nodes {node_name} {key}={value}
 kubectl get deployments
 
 kubectl describe deployment {deployment_name}
-
-kubectl 
 ```
 
 ## Service Account
