@@ -2,6 +2,7 @@
 
 ## Command 
 ```bash
+
 kubectl get
 kubectl get [type] --selector {key}={value}
 kubectl get all --selector {key}={value},{key}={value}
@@ -79,7 +80,6 @@ spec:
           restartPolicy: Never
 ```
 
-
 ## Node
 ```bash
 kubectl get nodes
@@ -106,6 +106,13 @@ spec:
   strategy:
     type: Recreate
     type: RollingUpdate
+```
+
+## Service
+```bash
+kubectl get services
+
+kubectl describe service {service_name}
 ```
 
 ## Containers
