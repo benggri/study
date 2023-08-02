@@ -3,6 +3,8 @@
 ## Command 
 ```bash
 kubectl get
+kubectl get [type] --selector {key}={value}
+kubectl get all --selector {key}={value},{key}={value}
 kubectl set
 kubectl describe
 kubectl run {pod_name}
@@ -13,6 +15,7 @@ kubectl apply
 kubectl taint nodes {node_name} {key}={value}:{schedule}
 kubectl label [type] {type_name} {key}={value}
 kubectl top [type]
+
 ```
 
 ## POD
@@ -30,6 +33,7 @@ kubectl apply -f {file_name}.yaml
 kubectl run {pod_name} --image={image_name}
 # nginx 이미지를 사용해 nginx 라는 이름으로 pod 생성 및 실행
 kubectl run nginx --image=nginx
+kubectl get pods --selector {key}={value}
 ```
 
 ## Node
