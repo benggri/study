@@ -120,6 +120,44 @@ kubectl describe service {service_name}
 kubectl get networkpolicy
 ```
 
+```yaml
+# https://kubernetes.io/docs/concepts/services-networking/network-policies/
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: test-network-policy
+  namespace: default
+spec:
+  podSelector:
+    matchLabels:
+      role: db
+  policyTypes:
+    - Ingress # 들어올 수 있는 Source
+    - Egress # 나갈 수 있는 Destination
+  ingress:
+    - from:
+        - ipBlock: # 들어올 수 있는 IP 블록 제한
+            cidr: 172.17.0.0/16
+            except:
+              - 172.17.1.0/24
+        - namespaceSelector: # label 기반으로 들어올 수 있는 Namespace 제한
+            matchLabels:
+              project: myproject
+        - podSelector: # label 기반으로 들어올 수 있는 Pod 제한
+            matchLabels:
+              role: frontend
+      ports:
+        - protocol: TCP
+          port: 6379
+  egress:
+    - to:
+        - ipBlock:
+            cidr: 10.0.0.0/24
+      ports:
+        - protocol: TCP
+          port: 5978
+
+```
 
 ## Containers
 ```bash
