@@ -6,7 +6,7 @@
 kubectl get
 kubectl get [type] --selector {key}={value}
 kubectl get all --selector {key}={value},{key}={value}
-kubectl set
+kubectl set 
 kubectl describe
 kubectl run {pod_name}
 kubectl create [type] {type_name}
