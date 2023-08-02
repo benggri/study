@@ -11,6 +11,7 @@ kubectl replace
 kubectl apply
 kubectl taint nodes {node_name} {key}={value}:{schedule}
 kubectl label [type] {type_name} {key}={value}
+kubectl top [type]
 ```
 
 ## POD
