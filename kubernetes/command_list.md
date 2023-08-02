@@ -36,6 +36,50 @@ kubectl run nginx --image=nginx
 kubectl get pods --selector {key}={value}
 ```
 
+## JOB
+```bash
+kubectl create job {pod_name} --image
+kubectl create job {pod_name} --image={image_name} --dry-run=client -o yaml > {file_name}.yaml
+```
+
+```yml
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {job_name}
+spec:
+  completions: {number}
+  parallelism: {number}
+  backoffLimit: {number} # This is so the job does not quit before it succeeds.
+  template:
+    spec:
+      containers:
+      - name: {container_name}
+        image: {image_name}
+      restartPolicy: Never
+```
+
+```yml
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: {job_name}
+spec:
+  schedule: {String:cron_exp}
+  jobTemplate:
+    spec:
+      completions: {number}
+      parallelism: {number}
+      backoffLimit: {number}
+      template:
+        spec:
+          containers:
+          - name: {container_name}
+            image: {image_name}
+          restartPolicy: Never
+```
+
+
 ## Node
 ```bash
 kubectl get nodes
@@ -56,7 +100,7 @@ kubectl describe deployment {deployment_name}
 kubectl edit deployment {deployment_name}
 ```
 
-```yaml
+```yml
 # strategy setting
 spec:
   strategy:
