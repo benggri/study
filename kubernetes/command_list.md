@@ -98,6 +98,8 @@ kubectl get deployments
 kubectl describe deployment {deployment_name}
 
 kubectl edit deployment {deployment_name}
+
+kubectl get deployment --namespace={namespace_name}
 ```
 
 ```yml
@@ -157,6 +159,13 @@ spec:
         - protocol: TCP
           port: 5978
 
+```
+
+### ingress
+```bash
+kubectl get ingress --all-namespaces
+kubectl describe ingress --namespace {namespace_name}
+kubectl edit ingress --namespace {namespace_name}
 ```
 
 ## Containers
