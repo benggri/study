@@ -115,6 +115,12 @@ kubectl get services
 kubectl describe service {service_name}
 ```
 
+## Networkpolicy
+```bash
+kubectl get networkpolicy
+```
+
+
 ## Containers
 ```bash
 
