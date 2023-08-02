@@ -52,6 +52,16 @@ kubectl replace --force -f {file_name}.yaml
 kubectl get deployments
 
 kubectl describe deployment {deployment_name}
+
+kubectl edit deployment {deployment_name}
+```
+
+```yaml
+# strategy setting
+spec:
+  strategy:
+    type: Recreate
+    type: RollingUpdate
 ```
 
 ## Containers
