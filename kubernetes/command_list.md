@@ -168,6 +168,40 @@ kubectl describe ingress --namespace {namespace_name}
 kubectl edit ingress --namespace {namespace_name}
 ```
 
+## ConfigMap
+```bash
+kubectl create configmap {configmap_name} --namespace {namespae_name}
+```
+
+## Role
+```bash
+kubectl get roles
+```
+
+## RoleBindings
+```bash
+kubectl get rolebindings
+```
+
+## ClusterRoles
+```bash
+kubectl get clusterroles
+```
+
+## ClusterRoleBindings 
+```bash
+kubectl get clusterrolebindings 
+```
+
+
+
+
+
+## Namespace
+```bash
+kubectl create namespace {namespace_name}
+```
+
 ## Containers
 ```bash
 
@@ -183,4 +217,5 @@ kubectl describe serviceaccount {namespace}
 
 # create service account
 kubectl create serviceaccount {service_account_name}
+kubectl create serviceaccount {service_account_name} --namespace {namespace_name}
 ```
