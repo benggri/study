@@ -19,6 +19,15 @@ kubectl top [type]
 
 ```
 
+## ReplicaSets
+```bash
+kubectl edit replicasets {replicasets_name}
+
+# Replica 갯수 수정
+kubectl scale replicasets {replicasets_name} --replicas={number}
+```
+
+
 ## POD
 ```bash
 # pod list
