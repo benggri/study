@@ -43,6 +43,21 @@ kubectl apply -f {file_name}.yaml
 kubectl run {pod_name} --image={image_name}
 # nginx 이미지를 사용해 nginx 라는 이름으로 pod 생성 및 실행
 kubectl run nginx --image=nginx
+
+kubectl run {pod_name} --image={image_name} -l {key}={value}
+# nginx 이미지를 사용해 nginx 라는 이름과 labels tier=db pod 생성 및 실행
+kubectl run nginx --image=nginx -l tier=db
+
+kubectl run {pod_name} --image={image_name} -l {key}={value} --port={port_number}
+# 이미지 nginx , POD 이름 nginx , labels tier=db, PORT 8080 pod 생성 및 실행
+kubectl run nginx --image=nginx -l tier=db --port=8080
+
+kubectl run {pod_name} --image={image_name} -l {key}={value} --port={port_number} --expose
+# 이미지 nginx , POD 이름 nginx , labels tier=db, PORT 8080 pod 생성 및 실행
+# service 까지 생성
+kubectl run nginx --image=nginx -l tier=db --port=8080 --expose
+
+
 kubectl get pods --selector {key}={value}
 ```
 
@@ -109,6 +124,8 @@ kubectl describe deployment {deployment_name}
 kubectl edit deployment {deployment_name}
 
 kubectl get deployment --namespace={namespace_name}
+
+kubectl create deployment {deployment_name} --image={image_name} --replicas={replicas_number}
 ```
 
 ```yml
@@ -124,6 +141,9 @@ spec:
 kubectl get services
 
 kubectl describe service {service_name}
+
+# 서비스 생성
+kubectl expose pod {pod_name} --port={port_number} --name {service_name}
 ```
 
 ## Networkpolicy
