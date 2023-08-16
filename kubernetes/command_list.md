@@ -27,6 +27,26 @@ kubectl edit replicasets {replicasets_name}
 kubectl scale replicasets {replicasets_name} --replicas={number}
 ```
 
+### ReplicaSets Scale 변경 방법
+
+* 1 yaml 파일 replicase 값 변경
+
+```bash
+kubectl replace -f {file_name}.yaml
+```
+
+* 2 kubectl scale 명령어 & 파일
+
+```bash
+kubectl scale --replicas={number} -f {file_name}.yaml
+```
+
+* 3 kubectl sacel 명령어 & 타입 + 타입 명
+
+```bash
+kubectl scale --replicas={number} replicaset {replicaset_name}
+```
+
 
 ## POD
 ```bash
