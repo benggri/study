@@ -80,61 +80,6 @@ spec:
       type: Directory
 ```
 
-
-## JOB
-```bash
-kubectl create job {pod_name} --image
-kubectl create job {pod_name} --image={image_name} --dry-run=client -o yaml > {file_name}.yaml
-```
-
-```yml
-apiVersion: batch/v1
-kind: Job
-metadata:
-  name: {job_name}
-spec:
-  completions: {number}
-  parallelism: {number}
-  backoffLimit: {number} # This is so the job does not quit before it succeeds.
-  template:
-    spec:
-      containers:
-      - name: {container_name}
-        image: {image_name}
-      restartPolicy: Never
-```
-
-```yml
-apiVersion: batch/v1
-kind: CronJob
-metadata:
-  name: {job_name}
-spec:
-  schedule: {String:cron_exp}
-  jobTemplate:
-    spec:
-      completions: {number}
-      parallelism: {number}
-      backoffLimit: {number}
-      template:
-        spec:
-          containers:
-          - name: {container_name}
-            image: {image_name}
-          restartPolicy: Never
-```
-
-## Node
-```bash
-kubectl get nodes
-
-kubectl describe node {node_name}
-
-kubectl taint nodes {node_name} {key}={value}:{schedule}
-kubectl label nodes 경
-kubectl replace --force -f {file_name}.yaml
-```
-
 ## ReplicaSets
 ```bash
 kubectl edit replicasets {replicasets_name}
@@ -192,6 +137,60 @@ kubectl describe service {service_name}
 
 # 서비스 생성
 kubectl expose pod {pod_name} --port={port_number} --name {service_name}
+```
+
+## JOB
+```bash
+kubectl create job {pod_name} --image
+kubectl create job {pod_name} --image={image_name} --dry-run=client -o yaml > {file_name}.yaml
+```
+
+```yml
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {job_name}
+spec:
+  completions: {number}
+  parallelism: {number}
+  backoffLimit: {number} # This is so the job does not quit before it succeeds.
+  template:
+    spec:
+      containers:
+      - name: {container_name}
+        image: {image_name}
+      restartPolicy: Never
+```
+
+```yml
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: {job_name}
+spec:
+  schedule: {String:cron_exp}
+  jobTemplate:
+    spec:
+      completions: {number}
+      parallelism: {number}
+      backoffLimit: {number}
+      template:
+        spec:
+          containers:
+          - name: {container_name}
+            image: {image_name}
+          restartPolicy: Never
+```
+
+## Node
+```bash
+kubectl get nodes
+
+kubectl describe node {node_name}
+
+kubectl taint nodes {node_name} {key}={value}:{schedule}
+kubectl label nodes 경
+kubectl replace --force -f {file_name}.yaml
 ```
 
 ## Networkpolicy
