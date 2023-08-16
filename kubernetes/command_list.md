@@ -61,6 +61,33 @@ kubectl run nginx --image=nginx -l tier=db --port=8080 --expose
 kubectl get pods --selector {key}={value}
 ```
 
+### POD Volume Mounts
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: webapp
+spec:
+  containers:
+  - name: event-simulator
+    image: kodekloud/event-simulator
+    env:
+    - name: LOG_HANDLERS
+      value: file
+    volumeMounts:
+    - mountPath: /log
+      name: log-volume
+
+  volumes:
+  - name: log-volume
+    hostPath:
+      # directory location on host
+      path: /var/log/webapp
+      # this field is optional
+      type: Directory
+```
+
+
 ## JOB
 ```bash
 kubectl create job {pod_name} --image
