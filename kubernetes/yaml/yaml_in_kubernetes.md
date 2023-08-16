@@ -42,7 +42,7 @@ metadata:
 
 ### spec
 
-* 사양
+* 사양 정보를 작성한다
 
 ```yaml
 spec:
