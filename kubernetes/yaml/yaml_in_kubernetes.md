@@ -48,7 +48,7 @@ metadata:
 spec:
   containers: # 배열
   - name: {name_1}
-    image: {image_name_1}
+    image: {image_name_1} # Docker 가 아닌 다른 이미지 제공자의 경우 이미지를 pull 할 수 있는 전체 경로를 작성한다
   - name: {name_1}
     image: {image_name_1}
 ```
