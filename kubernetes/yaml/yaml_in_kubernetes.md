@@ -15,7 +15,7 @@ spec:
 ### apiVersion
 
 | Kind | Version | 
-| === | === | 
+| --- | --- | 
 | POD | v1 | 
 | SErvice | v1 | 
 | ReplicaSet | apps/v1 | 
