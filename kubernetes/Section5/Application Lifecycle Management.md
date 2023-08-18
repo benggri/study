@@ -31,3 +31,41 @@ kubectl set image deployment/{deployment_name} \ {container_name}={image_name}:{
 ```bash
 kubectl rollout undo deployment/{deployment_name}
 ```
+
+---
+
+## Summarize Commands
+
+### create
+
+```bash
+kubectl create -f {file_name}.yaml
+```
+
+### get
+
+```bash
+kubectl get deployments
+```
+
+### update
+
+```bash
+kubectl apply -f {file_name}.yaml
+
+kubectl set image deployment/{deployment_name} {container_name}={image_name}:{version}
+```
+
+### status
+
+```bash
+kubectl rollout status deployment/{deployment_name}
+
+kubectl rollout history deployment/{deployment_name}
+```
+
+### Rollback
+
+```bash
+kubectl rollout undo deployment/{deployment_name}
+```
