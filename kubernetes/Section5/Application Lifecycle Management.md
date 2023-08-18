@@ -10,7 +10,7 @@ kubectl rollout status deployment/{deployment_name}
 kubectl rollout history deployment/{deployment_name}
 ```
 
-### 배포 전략
+## 배포 전략
 - Recreate
   - 다 내리고 새로 올림
   - 다 내리고 새로 올리는 동안 Application 이 중지됨
@@ -26,3 +26,8 @@ kubectl set image deployment/{deployment_name} \ {container_name}={image_name}:{
 # => 이렇게 하면 yaml 파일에서 관리하고 있지 않기 때문에 권장하지 않음
 ```
 
+## Rollback
+
+```bash
+kubectl rollout undo deployment/{deployment_name}
+```
