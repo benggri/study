@@ -1,8 +1,8 @@
 # Kubernetes Command List
 
 ## Command 
-```bash
 
+```bash
 kubectl get
 kubectl get [type] --selector {key}={value}
 kubectl get all --selector {key}={value},{key}={value}
@@ -16,7 +16,6 @@ kubectl apply
 kubectl taint nodes {node_name} {key}={value}:{schedule}
 kubectl label [type] {type_name} {key}={value}
 kubectl top [type]
-
 ```
 
 
@@ -55,7 +54,7 @@ kubectl get pods --selector {key}={value}
 ```
 
 ### POD Volume Mounts
-```yaml
+```yml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -96,7 +95,7 @@ docker run app/image
 
 #### 기본 POD yaml
 
-```yaml
+```yml
 # pod.yaml
 apiVersion: v1
 kind: Pod
@@ -250,7 +249,7 @@ kubectl replace --force -f {file_name}.yaml
 kubectl get networkpolicy
 ```
 
-```yaml
+```yml
 # https://kubernetes.io/docs/concepts/services-networking/network-policies/
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
@@ -356,7 +355,7 @@ kubectl create serviceaccount {service_account_name} --namespace {namespace_name
 kubectl get pv
 ```
 
-```yaml
+```yml
 # https://kubernetes.io/ko/docs/tasks/configure-pod-container/configure-persistent-volume-storage/#%ED%8D%BC%EC%8B%9C%EC%8A%A4%ED%84%B4%ED%8A%B8%EB%B3%BC%EB%A5%A8-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0
 apiVersion: v1
 kind: PersistentVolume
@@ -379,7 +378,7 @@ spec:
 kubectl get pvc
 ```
 
-```yaml
+```yml
 # https://kubernetes.io/ko/docs/tasks/configure-pod-container/configure-persistent-volume-storage/#%ED%8D%BC%EC%8B%9C%EC%8A%A4%ED%84%B4%ED%8A%B8%EB%B3%BC%EB%A5%A8-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -396,7 +395,7 @@ spec:
 
 ### POD
 
-```yaml
+```yml
 apiVersion: v1
 kind: Pod
 metadata:
