@@ -106,6 +106,28 @@ spec:
   containers:
   - name: private-pod
     image: private-registry.io/app/image
+# secret 정보를 불러온다
+  imagePullSecrets:
+  - name: {secret_name}
+```
+
+```bash
+# kubectl secret 에서 사용가능한 명령어를 확인한다
+# kubectl create secret --help 명령어를 실행 후 Available Commands: 아래 확인
+kubectl create secret --help
+Create a secret using specified subcommand.
+
+Available Commands:
+  docker-registry   Create a secret for use with a Docker registry
+  generic           Create a secret from a local file, directory, or literal value
+  tls               Create a TLS secret
+
+
+kubectl create secret docker-registry {secret_name} \
+  --docker-server= private-registry.io \
+  --docker-username= registry-user \
+  --docker-password= registry-password \
+  --docker-email= registry-user@company.com
 ```
 
 
