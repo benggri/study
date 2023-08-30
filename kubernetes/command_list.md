@@ -80,6 +80,36 @@ spec:
       type: Directory
 ```
 
+### POD use Private Image 
+- image 구조
+  - image: docker.id/library/nginx
+  - image: registy/{User/Account}/{Image/Repository}
+
+```bash
+docker login private-registry.io
+# docker login 
+Username: 
+Password
+
+docker run app/image
+```
+
+#### 기본 POD yaml
+
+```yaml
+# pod.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: private-pod
+spec:
+  containers:
+  - name: private-pod
+    image: private-registry.io/app/image
+```
+
+
+
 ## ReplicaSets
 ```bash
 kubectl edit replicasets {replicasets_name}
