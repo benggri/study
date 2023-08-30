@@ -2,7 +2,7 @@
 
 Docker 에서 이미지를 실행하면 root 사용자로 실행된다
 
-```ShellSession
+```bash
 docker run {image} sleep 1000
 ```
 
