@@ -17,3 +17,11 @@
 - explain : 설명하다
 - possibility : 가능성
 - probability : 개연성
+- intention : 의도
+- intend : 의도하다
+- noun : 명사
+- pronoun : 대명사
+- figures : 금액, 수치
+- offer : 권하다
+- bid : 입찰하다
+- fair : 공정한
