@@ -25,3 +25,16 @@
 - offer : 권하다
 - bid : 입찰하다
 - fair : 공정한
+
+- how often something happens.
+- how many happen
+```
+Always        100% 
+Usually       85%         
+Sometimes     75%
+Often         70%    
+Occasionally  30%       
+Seldom        17% 
+Rarely        5% 
+Never         0%
+```
