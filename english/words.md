@@ -38,3 +38,9 @@ Seldom        17%
 Rarely        5% 
 Never         0%
 ```
+
+
+- informally : 비공식적으로
+- formal : 공식적으로
+- occur : 발생하다
+- calm : 침착한
