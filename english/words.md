@@ -26,6 +26,19 @@
 - bid : 입찰하다
 - fair : 공정한
 
+- polite : 예의바른
+- impolite : 무례한
+
+- face to face : 면대면(meet in the same room and talk)
+- eye to eye : 생각을 맞추다
+
+- mistaken : 잘못된
+- mistaking : 착각하다
+
+- handle between coworkers : 동료들 사이에서 처리하다
+
+- crucial : 중대한
+
 - how often something happens.
 - how many happen
 ```
