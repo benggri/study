@@ -15,7 +15,6 @@ flowchart LR
     DB[(Database)]
   end
   Application --> ConnectionPool
-  ConnectionPool --> Database
   DB --> C1
   DB --> C2
   DB --> C3
