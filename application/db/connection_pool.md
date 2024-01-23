@@ -19,4 +19,8 @@ flowchart TB
     DB[(Database)]
   end 
   Application --> ConnectionPool
+  Database --> C1
+  Database --> C2
+  Database --> C3
+  Database --> C4
 ```
