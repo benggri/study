@@ -2,14 +2,18 @@
 
 ```mermaid
 flowchart LR
-  APP[Application]
+  subgraph Application
+    APP[Application]
+  end
   subgraph ConnectionPool
     C1[Connection]
     C2[Connection]
     C3[Connection]
     C4[Connection]
   end
-  DB[(Database)]
+  subgraph Database
+    DB[(Database)]
+  end
   APP --> ConnectionPool
   ConnectionPool --> DB
   DB --> C1
