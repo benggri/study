@@ -2,9 +2,7 @@
 
 ```mermaid
 flowchart LR
-  subgraph Application
-    APP[Application]
-  end
+  APP[Application]
   subgraph ConnectionPool
     direction TB
     C1[Connection]
@@ -18,5 +16,5 @@ flowchart LR
   subgraph Database
     DB[(Database)]
   end
-  Application --> ConnectionPool
+  APP --> ConnectionPool
 ```
