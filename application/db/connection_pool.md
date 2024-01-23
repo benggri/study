@@ -5,9 +5,6 @@ flowchart TB
   subgraph Application
     APP[Application]
   end
-  subgraph Database
-    DB[(Database)]
-  end 
   subgraph ConnectionPool
     direction TB
     C1[Connection]
@@ -18,5 +15,8 @@ flowchart TB
     C2 ~~~ C3
     C3 ~~~ C4
   end
+  subgraph Database
+    DB[(Database)]
+  end 
   Application --> ConnectionPool
 ```
