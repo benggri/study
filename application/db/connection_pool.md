@@ -14,8 +14,8 @@ flowchart LR
   subgraph Database
     DB[(Database)]
   end
-  APP --> ConnectionPool
-  ConnectionPool --> DB
+  Application --> ConnectionPool
+  ConnectionPool --> Database
   DB --> C1
   DB --> C2
   DB --> C3
