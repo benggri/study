@@ -13,8 +13,6 @@ flowchart LR
     C2 ~~~ C3
     C3 ~~~ C4
   end
-  subgraph Database
-    DB[(Database)]
-  end
+  DB[(Database)]
   APP --> ConnectionPool
 ```
