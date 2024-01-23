@@ -10,5 +10,9 @@ flowchart LR
     C4[Connection]
   end
   DB[(Database)]
-
+  APP --> ConnectionPool
+  DB --> C1
+  DB --> C2
+  DB --> C3
+  DB --> C4
 ```
