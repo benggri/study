@@ -18,7 +18,7 @@ flowchart TB
   subgraph Database
     DB[(Database)]
   end 
-  Application --> ConnectionPool
+  Application --> ConnectionPool --> Database
   Database --> C1
   Database --> C2
   Database --> C3
