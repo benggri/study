@@ -6,6 +6,7 @@ flowchart LR
     APP[Application]
   end
   subgraph ConnectionPool
+    direction TB
     C1[Connection]
     C2[Connection]
     C3[Connection]
