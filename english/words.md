@@ -57,3 +57,11 @@ Never         0%
 - formal : 공식적으로
 - occur : 발생하다
 - calm : 침착한
+
+- ensure = make sure : 확실히 하다
+- exceptional = very special : 중요한
+- bother : 귀찮음
+- sorry to bother you, but : 귀찮게 해서 미안한데...
+- slight : 아주 작은
+
+
