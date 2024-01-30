@@ -1,0 +1,4 @@
+- I would like to thank your customer service representative for their fast, kind and simple support in resolving my problem
+- 내 문제를 해결하는데 신속하고 친절하며 간단하게 지원해준 고객 서비스 담당자에게 감사드립니다
+- you gave excellent service today
+- 당신은 오늘 훌륭한 서비스를 제공했습니다
