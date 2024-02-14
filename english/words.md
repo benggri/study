@@ -63,5 +63,6 @@ Never         0%
 - bother : 귀찮음
 - sorry to bother you, but : 귀찮게 해서 미안한데...
 - slight : 아주 작은
+- pneumonia : 폐렴(neumonia:뉴모니아)
 
 
