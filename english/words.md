@@ -65,4 +65,9 @@ Never         0%
 - slight : 아주 작은
 - pneumonia : 폐렴(neumonia:뉴모니아)
 
-
+- grumpy : 성격이 나쁜
+- tantrum : 언짢은 기분
+- throw a tantrum : 떼를 쓰다
+- resumes : 이력서
+- recruit : 모집하다
+- job opening : 채용 공고
