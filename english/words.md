@@ -71,3 +71,25 @@ Never         0%
 - resumes : 이력서
 - recruit : 모집하다
 - job opening : 채용 공고
+
+
+- parallel[패뤌렐] : 병렬
+  - 실제로 parallel 은 잘 사용하지 않는다고 한다
+  - I can start two tasks same time
+- crucial : 중대한
+- effective : 효과적인
+- efficient : 효율적인
+- accomplish : 성취하다
+- itinerary : 여정 
+- agenda : 의제
+- procrastinate : 미루다
+- chores[쵸ㄹ어스] : 허드렛일(집안일-설거지, 청소 등)
+
+
+
+
+
+
+
+
+
