@@ -84,6 +84,11 @@ Never         0%
 - agenda : 의제
 - procrastinate : 미루다
 - chores[쵸ㄹ어스] : 허드렛일(집안일-설거지, 청소 등)
+if it weren't for the last minute, nothing would get done.
+
+- procrastinate : 미루다
+- affirmative[어펆머에이티브] : 긍정(Positive 보다 전문적인 단어)
+- unavailable[언어베일러블] : 불가능
 
 
 
