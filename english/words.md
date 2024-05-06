@@ -90,6 +90,23 @@ if it weren't for the last minute, nothing would get done.
 - affirmative[어펆머에이티브] : 긍정(Positive 보다 전문적인 단어)
 - unavailable[언어베일러블] : 불가능
 
+- accommodations : 숙박 시설
+- push back : 밀어내다
+- audience : 청중
+- nutshell : 간단히 말해서(very briefly : 아주 짧게)
+- disaster : 재해
+- to go with the flow : 흐름을 따라가다
+- mind goes blank : 마음이 텅 빈다(머릿속이 백지장처럼 하얗게된다)
+- visual aid : 시각 자료
+- outline  : 개요
+- demonstrate : 입증하다
+- proove : 증명하다
+- exhibit : 전시하다
+- synopsis : 개요
+- nerve-wracking : 신경이 쓰이는
+- anxiety[앤자이어티] : 불안
+- confident : 자신감
+
 
 
 
