@@ -108,7 +108,73 @@ if it weren't for the last minute, nothing would get done.
 - confident : 자신감
 
 
+- work ethic : 직업 윤리
 
+```
+the way that someone feels about the importance of work, usually ther belief that it is important to work hard
+누군가가 일의 중요성에 대해 느끼는 방식, 일반적으로 열심히 일하는 것이 중요하다는 믿음
+```
+
+- independently : 독립적으로
+
+```
+without being helped or influenced by other people
+다른 사람의 도움이나 영향을 받지 않고
+```
+
+- proactive : 사전 예방적인
+
+```
+intending or intended to produce a good result or avoid a problem, rather than waiting until there is a problem
+문제가 생길 때까지 기다리기보다는 좋은 결과를 낳거나 문제를 피하려고 의도하거나 의도한 것
+```
+
+- organized : 조직적인
+
+```
+able to plan things carefully and keep things neat
+일을 신중하게 계획하고 깔끔하게 유지할 수 있습니다.
+```
+
+- neat : 깔끔한 <> messy : 지저분한
+
+- oriented : 지향
+
+```
+motivated by
+동기를 부여받은
+concerned with (as in goal-orientend, detail-oriented)
+(목표 지향, 세부 지향에서와 같이) 관련됨
+```
+
+```
+to work your fingers to the bone
+손가락이 뼈가 되도록 일하다
+```
+
+```
+a mover and a shaker
+someone whose opinion is respected
+자신의 의견이 존중되는 사람
+빅보스, 절대자 같은 느낌
+```
+
+```
+to pull your weight
+팀의 일부로서 적절한 역할을 하고 기여하는 것
+
+to do your fair share of the work
+당신의 공정한 몫의 일을 하기 위해
+
+He is a great team worker and always pulls his weight
+그는 훌륭한 팀원이며 항상 자신의 일을 잘 처리한다
+```
+
+- adjectives : 형용사
+
+- cooperative : 협력적인
+
+- consistent : 일관된
 
 
 
