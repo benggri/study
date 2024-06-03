@@ -177,6 +177,40 @@ He is a great team worker and always pulls his weight
 - consistent : 일관된
 
 
+- prefer : 선호하다
+
+- adjectives : 형용사
+
+- cooperative : 협력적인
+- flexible    : 유연한
+- reliable    : 믿을수있는
+- driven      : 중심의
+- attentive   : 친절한
+
+- adverbs : 부사
+
+- diligently  : 부지런히
+- patiently   : 참을성있게
+- swiftly     : 신속하게
+- thoroughly  : 철저히
+- ambitiously : 야심차게
+
+- do you tend to finish your work early, in advance of deadlines, or wait until the last minute?
+    - 마감일보다 일찍 일을 끝내는 편인가요, 아니면 마지막 순간까지 기다리는 편인가요?
+
+- would you rather do your most difficult tasks in ther morining or later in the day? why?
+    - 가장 어려운 일을 아침에 하시겠습니까, 아니면 오후 늦게 하시겠습니까? 왜?
+
+- do you prefer to focus on one assignment at a time or multitask? why?
+    - 한 번에 하나의 과제에 집중하는 것을 선호하시나요, 아니면 멀티 태스킹을 선호하시나요? 왜?
+
+- proactive : 사전 예방적인
+
+- perspectives : 관점
+
+- collaboratively : 협력하여
+
+- oranized : 정리된
 
 
 
