@@ -212,6 +212,10 @@ He is a great team worker and always pulls his weight
 
 - oranized : 정리된
 
-
+- extremely : 극도로
+- ambitious : 거창한
+- encounter : 맞닥뜨리다
+- motivational : 동기 부여
+- internally : 내부적으로
 
 
