@@ -218,4 +218,20 @@ He is a great team worker and always pulls his weight
 - motivational : 동기 부여
 - internally : 내부적으로
 
+- drains : 배수구, 지치게하는
+- pet peeve : annoys you, 짜증나게 하는
+- None of us is as smart as all of us : 우리 중 누구도 우리 모두만큼 똑똑하지 않다(백지장도 맞들면 낫다)
+- qoute : 인용문
+
+four type of work styles
+- pioneers[파이오니어스] / leaders : 개척자 / 지도자
+- drivers / doers[두어스] : 운전자 / 행동자
+- guardians / learners : 보호자 / 학습자
+- integrators / feelers[필러스] : 통합자 / 감정자
+- stability : 안정
+- strategy[스트래티지] : 전략
+- strategic[스트래티직] : 전략적
+
+- consensus : 합의
+- allocate : 할당하다
 
