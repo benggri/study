@@ -234,4 +234,25 @@ four type of work styles
 
 - consensus : 합의
 - allocate : 할당하다
-
+- positive  : 긍정적인 
+- characteristics : 형질
+- direct report  : 직속 부하 
+- an employee whose position at work is directly below that of another person : 직장에서 다른 사람의 직위 바로 아래에 있는 직원
+- organization : 조직
+- law firm : 법률 사무소
+- accomplishing : 성취하다
+- ahead of the game : 경기를 앞두고
+- to be in an advantageous position : 유리한 위치에 놓이게 된다
+- to be on the same page : 같은 페이지에 있기 위해
+- to agree : 동의합니다
+- to go the extra mile : 더 멀리 가기 위해
+- to go above and beyond : 그 이상으로 나아가기 위해
+- willing to make a special effort : 기꺼이 특별한 노력을 기울인다
+- Maria should lead the project since she will go the extra mile. : Maria는 더 많은 노력을 기울일 것이므로 프로젝트를 주도해야 합니다.
+- definite  : 명확한 
+- Two temporary employees are helping out this month : 이번 달에는 임시 직원 2명이 도움을 주고 있습니다
+- the vice president : 부사장
+- applicants : 지원자
+- Are you thinking about changing jobs? : 직업을 바꾸는 것에 대해 생각하고 있습니까?
+- subordinate  : 부하 
+- designation(데직네이션) : 지정(데직네이션)
