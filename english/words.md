@@ -1,13 +1,9 @@
 # 영어 공부
-
 - coworker : 같이 일하는 사람
 - colleague : 같이 일하는 사람(전문적인)
-
-
 - extrvert : 외향적인
 - ambivert : 외향적인 - 내향적인 중간
 - introvert : 내향적인
-
 - several : 여러 개의 (similar many)
 - clearer : 명확하게
 - interrupt : 방해하다
@@ -25,18 +21,13 @@
 - offer : 권하다
 - bid : 입찰하다
 - fair : 공정한
-
 - polite : 예의바른
 - impolite : 무례한
-
 - face to face : 면대면(meet in the same room and talk)
 - eye to eye : 생각을 맞추다
-
 - mistaken : 잘못된
 - mistaking : 착각하다
-
 - handle between coworkers : 동료들 사이에서 처리하다
-
 - crucial : 중대한
 
 - how often something happens.
@@ -51,28 +42,22 @@ Seldom        17%
 Rarely        5% 
 Never         0%
 ```
-
-
 - informally : 비공식적으로
 - formal : 공식적으로
 - occur : 발생하다
 - calm : 침착한
-
 - ensure = make sure : 확실히 하다
 - exceptional = very special : 중요한
 - bother : 귀찮음
 - sorry to bother you, but : 귀찮게 해서 미안한데...
 - slight : 아주 작은
 - pneumonia : 폐렴(neumonia:뉴모니아)
-
 - grumpy : 성격이 나쁜
 - tantrum : 언짢은 기분
 - throw a tantrum : 떼를 쓰다
 - resumes : 이력서
 - recruit : 모집하다
 - job opening : 채용 공고
-
-
 - parallel[패뤌렐] : 병렬
   - 실제로 parallel 은 잘 사용하지 않는다고 한다
   - I can start two tasks same time
@@ -85,11 +70,9 @@ Never         0%
 - procrastinate : 미루다
 - chores[쵸ㄹ어스] : 허드렛일(집안일-설거지, 청소 등)
 if it weren't for the last minute, nothing would get done.
-
 - procrastinate : 미루다
 - affirmative[어펆머에이티브] : 긍정(Positive 보다 전문적인 단어)
 - unavailable[언어베일러블] : 불가능
-
 - accommodations : 숙박 시설
 - push back : 밀어내다
 - audience : 청중
@@ -106,24 +89,17 @@ if it weren't for the last minute, nothing would get done.
 - nerve-wracking : 신경이 쓰이는
 - anxiety[앤자이어티] : 불안
 - confident : 자신감
-
-
 - work ethic : 직업 윤리
-
 ```
 the way that someone feels about the importance of work, usually ther belief that it is important to work hard
 누군가가 일의 중요성에 대해 느끼는 방식, 일반적으로 열심히 일하는 것이 중요하다는 믿음
 ```
-
 - independently : 독립적으로
-
 ```
 without being helped or influenced by other people
 다른 사람의 도움이나 영향을 받지 않고
 ```
-
 - proactive : 사전 예방적인
-
 ```
 intending or intended to produce a good result or avoid a problem, rather than waiting until there is a problem
 문제가 생길 때까지 기다리기보다는 좋은 결과를 낳거나 문제를 피하려고 의도하거나 의도한 것
@@ -256,3 +232,29 @@ four type of work styles
 - Are you thinking about changing jobs? : 직업을 바꾸는 것에 대해 생각하고 있습니까?
 - subordinate  : 부하 
 - designation(데직네이션) : 지정(데직네이션)
+
+- applicable : 해당되는
+
+- compensation : 보상
+
+```
+If you pick the right people and give them the opportunity to spread their wings and put compensation as a carrier behind it you almost don't have to manage them.
+적합한 사람을 선택하고 그들에게 날개를 펼칠 기회를 주고 그 뒤에 운반자로서 보상을 해준다면 그들을 관리할 필요가 거의 없습니다.
+```
+
+- revenue[레베뉴] : 수익
+
+- long shot : 일어날 확률이 낮은 일(야구를 생각하면 됨)
+- something that has a low chance of happening  : 일어날 확률이 낮은 일
+
+- no brainer : 생각할 필요가 없는
+
+- something very obvious or easy : 매우 명백하거나 쉬운 것
+
+- requires little or no thought : 생각이 거의 또는 전혀 필요하지 않음 
+
+- no strings attached : 제한이 없는
+
+- an offer or opportunity that has no special conditions or restrictions  : 특별한 조건이나 제한이 없는 제안이나 기회
+
+
