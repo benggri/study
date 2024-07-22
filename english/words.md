@@ -258,3 +258,26 @@ If you pick the right people and give them the opportunity to spread their wings
 - an offer or opportunity that has no special conditions or restrictions  : 특별한 조건이나 제한이 없는 제안이나 기회
 
 
+- participle  : 분사 
+- refrigerators : 냉장고
+- I was told that you are looking into new refrigerators by my manager. : 내 매니저로부터 당신이 새 냉장고를 알아보고 있다는 말을 들었습니다.
+- passive voice : 수동태
+- distribution : 분포
+- Manufacturer : 제조업체
+- Producer : 생산자
+- Wholesaler : 도매업자
+- Distributor : 유통 업체
+- Retailer : 소매점
+- Vendor : 공급업체
+- Salesperson : 영업사원
+- Customer : 고객
+- suppliers : 공급업체
+- further  : 더 나아가 
+- merchandise  : 상품 
+- revenue : 수익
+- negative : 부정적인
+- perceptions : 인식
+- ethical : 윤리적인
+- interacting : 상호 작용
+- leads : 리드
+- strategies : 전략
