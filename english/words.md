@@ -281,3 +281,5 @@ If you pick the right people and give them the opportunity to spread their wings
 - interacting : 상호 작용
 - leads : 리드
 - strategies : 전략
+- fascinated : 매료되다
+- afforadable : 저렴한
