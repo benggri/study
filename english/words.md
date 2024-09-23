@@ -283,3 +283,6 @@ If you pick the right people and give them the opportunity to spread their wings
 - strategies : 전략
 - fascinated : 매료되다
 - afforadable : 저렴한
+- regimen 레지민 : 루틴보다 더 강압적인 느낌, 군대같은 느낌
+
+
