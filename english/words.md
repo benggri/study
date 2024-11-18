@@ -294,6 +294,6 @@ If you pick the right people and give them the opportunity to spread their wings
 - beliefs : 신념 
 - reliable : 믿을 수 있는 
 - rely : 의존하다 
-- niece : 조카 
-- nephew : 조카 
+- niece : 조카 (딸)
+- nephew : 조카 (아들)
 
