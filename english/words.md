@@ -285,4 +285,15 @@ If you pick the right people and give them the opportunity to spread their wings
 - afforadable : 저렴한
 - regimen 레지민 : 루틴보다 더 강압적인 느낌, 군대같은 느낌
 
+- retired : 은퇴하다 
+- empathy : 공감 
+- independence : 독립 
+- polite : 예의 바른 
+- instill : 주입하다 
+- gradually : 서서히 
+- beliefs : 신념 
+- reliable : 믿을 수 있는 
+- rely : 의존하다 
+- niece : 조카 
+- nephew : 조카 
 
