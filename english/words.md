@@ -297,3 +297,7 @@ If you pick the right people and give them the opportunity to spread their wings
 - niece : 조카 (딸)
 - nephew : 조카 (아들)
 
+- immune(이ㅁ뮨) : 면역
+- immunization(이ㅁ뮤나이제이션) : 예방접종
+- chicken pox : 수두 
+- debate : 토론
