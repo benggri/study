@@ -301,3 +301,5 @@ If you pick the right people and give them the opportunity to spread their wings
 - immunization(이ㅁ뮤나이제이션) : 예방접종
 - chicken pox : 수두 
 - debate : 토론
+
+- 음모론[컨스피어ㄹ시 띠어ㄹ리] : Conspiracy theory
