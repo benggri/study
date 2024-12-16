@@ -303,3 +303,16 @@ If you pick the right people and give them the opportunity to spread their wings
 - debate : 토론
 
 - 음모론[컨스피어ㄹ시 띠어ㄹ리] : Conspiracy theory
+
+- pale : 창백한
+- symptoms : 증상
+- loss of appetite[애퍼타이트] : 식욕부진[애퍼타이트]
+- more of appetite : 식욕이 더 많아진다
+- cough : 기침
+- vomiting : 구토
+- diarrhea[다이어리아] : 설사[다이어리아]
+- rash : 발진(chicken pox(수두)와는 다르다)
+- ear ache : 귀가 아프다
+- sore throat : 목 쓰림
+- runny nose : 콧물
+
