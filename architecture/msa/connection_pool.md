@@ -330,7 +330,7 @@ Connection pool size = CPU 코어 수 * (1 + 사용자 요청의 대기 시간 �
     ```
 
     - Database를 물리적으로 분리하게 되면 상호 참조하는 Data들의 동기화를 해결하기 위한 방법이 필요합니다.
-
+    - 이를 위해 [Kafka CDC](https://debezium.io/documentation/reference/2.0/architecture.html)를 많이 사용합니다.
 
 ---
 
