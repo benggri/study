@@ -211,7 +211,7 @@ max_connections = 691 # (change requires restart)
 
 ### Appication Connection pool size 계산 방법
 
-- CPU 코어 수 : Application 서버의 CPU 코어 수
+- [CPU 코어 수](#cpu-코어-수) : Application 서버의 CPU 코어 수
 - [사용자 요청의 대기 시간 비율](#사용자-요청의-대기-시간-비율) : Application CPU 사용 작업 대비 I/O 작업 비율
 - PostgreSQL max_connections : PostgreSQL에서 허용하는 최대 연결 수
 - 공식은 아래와 같습니다.
