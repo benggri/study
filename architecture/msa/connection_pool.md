@@ -237,102 +237,100 @@ Connection pool size = CPU 코어 수 * (1 + 사용자 요청의 대기 시간 �
     - Read는 Read replica에서 처리하도록 합니다.
     - Write는 Main database에서 처리하도록 분리하여 Database의 연결 부하를 분산할 수 있습니다.
     - 이를 통해 Read 작업이 많을 경우, Database의 연결 수를 분산시켜 max_connections를 초과하지 않도록 할 수 있습니다.
+    - **Read replicat와 Main database를 분리하더라도 하나의 Database에 연결하는 Application이 많아지면 too many connections에러가 발생하게 됩니다.**
 
 1. Database 분리
 
     - Micro service 하나 당 Database 하나로 설계합니다.
     - 하나의 service에서는 하나의 Database를 연결할 수 있도록 합니다.
 
-```mermaid
-flowchart LR
-    subgraph MSA ["Micro Services"]
-        direction LR
-        subgraph K8S-1 ["Kubernetes"]
+    ```mermaid
+    flowchart LR
+        subgraph MSA ["Micro Services"]
             direction LR
-            subgraph FE-1 ["Frontend"]
-                fe-1@{ shape: processes, label: "Next.js" }
-            end
-            subgraph BFF-1 ["BFF"]
-                bff-1@{ shape: processes, label: "Nest.js" }
-            end
-            subgraph BE-1 ["Backend"]
+            subgraph K8S-1 ["Kubernetes"]
                 direction LR
-                be-rest-1@{ shape: processes, label: "Springboot(RestAPI)" }
-                be-grpc-1@{ shape: processes, label: "Nest.js(gRPC)" }
+                subgraph BE-1 ["Backend"]
+                    direction LR
+                    be-rest-1@{ shape: processes, label: "Springboot(RestAPI)" }
+                    be-grpc-1@{ shape: processes, label: "Nest.js(gRPC)" }
+                end
+                subgraph BT-1 ["Batch"]
+                    direction LR
+                    bt-1@{ shape: processes, label: "Springboot(Batch)" }
+                end
             end
-            subgraph BT-1 ["Batch"]
+            BE-1 ~~~ BT-1
+
+            subgraph K8S-2 ["Kubernetes"]
                 direction LR
-                bt-1@{ shape: processes, label: "Springboot(Batch)" }
+                subgraph BE-2 ["Backend"]
+                    direction LR
+                    be-rest-2@{ shape: processes, label: "Springboot(RestAPI)" }
+                    be-grpc-2@{ shape: processes, label: "Nest.js(gRPC)" }
+                end
+                subgraph BT-2 ["Batch"]
+                    direction LR
+                    bt-2@{ shape: processes, label: "Springboot(Batch)" }
+                end
+            end
+            BE-2 ~~~ BT-2
+
+            subgraph K8S-3 ["Kubernetes"]
+                direction LR
+                subgraph BE-3 ["Backend"]
+                    direction LR
+                    be-rest-3@{ shape: processes, label: "Springboot(RestAPI)" }
+                    be-grpc-3@{ shape: processes, label: "Nest.js(gRPC)" }
+                end
+                subgraph BT-3 ["Batch"]
+                    direction LR
+                    bt-3@{ shape: processes, label: "Springboot(Batch)" }
+                end
+            end
+            BE-3 ~~~ BT-3
+        end
+
+        subgraph MSA-DB ["MSA Databases"]
+            subgraph DB-1 ["Database A"]
+                db-1[("PostgreSQL")]
+            end
+            subgraph DB-2 ["Database B"]
+                db-2[("MongoDB")]
+            end
+            subgraph DB-3 ["Database C"]
+                db-3[("PostgreSQL")]
             end
         end
-        FE-1 --- BFF-1 --- BE-1 ~~~ BT-1
 
-        subgraph K8S-2 ["Kubernetes"]
-            direction LR
-            subgraph FE-2 ["Frontend"]
-                fe-2@{ shape: processes, label: "Next.js" }
+        BE-1 --- db-1
+        BE-2 --- db-2
+        BE-3 --- db-3
+        BT-1 <--> db-1
+        BT-2 <--> db-2
+        BT-3 <--> db-3
+    ```
+
+    - 위 그림처럼 하나의 Database에 연결하는 Application이 Backend(RestAPI 혹은 gRPC), Batch 두개로 제한하게 되면 max connections를 초과하는 경우를 방지할 수 있습니다.
+
+    ```mermaid
+    flowchart LR
+        subgraph MSA-DB ["MSA Databases"]
+            subgraph DB-1 ["Database A"]
+                db-1[("PostgreSQL")]
             end
-            subgraph BFF-2 ["BFF"]
-                bff-2@{ shape: processes, label: "Nest.js" }
+            subgraph DB-2 ["Database B"]
+                db-2[("MongoDB")]
             end
-            subgraph BE-2 ["Backend"]
-                direction LR
-                be-rest-2@{ shape: processes, label: "Springboot(RestAPI)" }
-                be-grpc-2@{ shape: processes, label: "Nest.js(gRPC)" }
-            end
-            subgraph BT-2 ["Batch"]
-                direction LR
-                bt-2@{ shape: processes, label: "Springboot(Batch)" }
+            subgraph DB-3 ["Database C"]
+                db-3[("PostgreSQL")]
             end
         end
-        FE-2 --- BFF-2 --- BE-2 ~~~ BT-2
+        DB-1 <---> DB-2 <---> DB-3 <---> DB-1
+    ```
 
-        subgraph K8S-3 ["Kubernetes"]
-            direction LR
-            subgraph FE-3 ["Frontend"]
-                fe-3@{ shape: processes, label: "Next.js" }
-            end
-            subgraph BFF-3 ["BFF"]
-                bff-3@{ shape: processes, label: "Nest.js" }
-            end
-            subgraph BE-3 ["Backend"]
-                direction LR
-                be-rest-3@{ shape: processes, label: "Springboot(RestAPI)" }
-                be-grpc-3@{ shape: processes, label: "Nest.js(gRPC)" }
-            end
-            subgraph BT-3 ["Batch"]
-                direction LR
-                bt-3@{ shape: processes, label: "Springboot(Batch)" }
-            end
-        end
-        FE-3 --- BFF-3 --- BE-3 ~~~ BT-3
-    end
+    - Database를 물리적으로 분리하게 되면 상호 참조하는 Data들의 동기화를 해결하기 위한 방법이 필요합니다.
 
-    subgraph MSA-DB ["MSA Databases"]
-      subgraph DB ["Database"]
-        db-1[("PostgreSQL")]
-      end
-      subgraph DB-2 ["Database"]
-        db-2[("MongoDB")]
-      end
-      subgraph DB-3 ["Database"]
-        db-3[("PostgreSQL")]
-      end
-    end
-
-    BFF-1 --- BE-2
-    BFF-1 --- BE-3
-    BFF-2 --- BE-1
-    BFF-2 --- BE-3
-    BFF-3 --- BE-1
-    BFF-3 --- BE-2
-    BE-1 --- db-1
-    BE-2 --- db-2
-    BE-3 --- db-3
-    BT-1 <--> db-1
-    BT-2 <--> db-2
-    BT-3 <--> db-3
-```
 
 ---
 
