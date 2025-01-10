@@ -225,11 +225,12 @@ Connection pool size = CPU 코어 수 * (1 + 사용자 요청의 대기 시간 �
     - 사용자 요청의 대기 시간 비율 : 2(I/O 작업 비율이 CPU 작업의 2배라면)
     - Connection pool size = 4 * (1+2) = 12
 
-### 그래서 결론은?
+### 다양한 해결 방법
 
 1. Connection pool 사용
 
     - Connection pool을 적절하게 설정하도록 합니다.
+    - **하지만 Connection pool을 적절하게 설정하더라도 하나의 Database에 연결하는 Application이 많아지면 too many connections에러가 발생하게 됩니다.**
 
 1. Read replica 구성
 
@@ -333,7 +334,11 @@ flowchart LR
     BT-3 <--> db-3
 ```
 
-#### 사용자 요청의 대기 시간 비율
+---
+
+# 추가 설명
+
+## 사용자 요청의 대기 시간 비율
 
 - Application의 작업을 CPU, I/O 바운드로 분류해야 합니다.
 - CPU 바운드 작업 : 주로 계산 작업, 데이터 변환, 인메모리 연산 등이 포함됩니다.
@@ -343,7 +348,7 @@ flowchart LR
     - cpu_processing_seconds : CPU 처리 시간
     - I/O 바운드 = request_duration_seconds - cpu_processing_seconds
 
-#### CPU 코어 수
+## CPU 코어 수
 
 - Cloud Platform을 사용하다보면 vCPU를 보실 수 있습니다.
 - vCPU(Virtual CPU)는 클리우드 환경에서 물리적 CPU를 논리적 분할로 제공횝니다.
