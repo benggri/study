@@ -317,3 +317,6 @@ If you pick the right people and give them the opportunity to spread their wings
 - runny nose : 콧물
 
 - executive[이그제큐티브] : 회사 내 엄청 높은 사람
+- appropriate[어프로프리에이트] : 적절한(correct thing)
+- involved : 관련된
+- 
