@@ -319,4 +319,18 @@ If you pick the right people and give them the opportunity to spread their wings
 - executive[이그제큐티브] : 회사 내 엄청 높은 사람
 - appropriate[어프로프리에이트] : 적절한(correct thing)
 - involved : 관련된
-- 
+- Rough day[롸프데이] : 힘든 하루(Hard day)
+- phrases : 구문
+- Establishing Rules : 계획 수립
+- Establish : 수립하다
+- appropriate : 적절한
+- it is up to you : 당신에게 달려있습니다.
+- Business Pitch : 작은 그룹에서 발표
+- rude : 무례한
+- pros and cons : 장점과 단점
+- refrain : 그만두다
+    - 회의에서 질문이 있으시면 발표가 끝난 후 해주세요를 말할 때 
+    - Please refrain ~~ 는 무례하다
+    - Could you please wait ~~ 가 공손하다
+
+
