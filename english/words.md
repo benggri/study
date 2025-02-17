@@ -333,4 +333,17 @@ If you pick the right people and give them the opportunity to spread their wings
     - Please refrain ~~ 는 무례하다
     - Could you please wait ~~ 가 공손하다
 
-
+- do you tend to be more direct (A) or indirect (B) when it comes to gibing opinions? why? : 의견을 말할 때 당신은 더 직접적으로(A) 말하는 경향이 있나요, 간접적으로(B) 말하는 경향이 있나요? 왜 그럴까요?
+- I definitely think we need to ask for feedback. : 저는 우리가 피드백을 요청해야 한다고 생각합니다.
+- It seems to me that we might want to ask for feedback. : 저는 우리가 피드백을 요청하고 싶어하는 것 같습니다.
+- vital. : 필수적입니다.
+- doubt. : 의심스럽습니다.
+- So, I have no doubt that we should start there and then move on. : 그래서 저는 우리가 거기서 시작해서 계속 나아가야 한다는 데 의심의 여지가 없습니다.
+- ambitious. : 야심적입니다.
+- feasible. : 실현 가능합니다.
+- Obviously. : 분명히 그렇습니다.
+- certain. : 확실합니다.
+- convince. : 설득합니다.
+- convinced. : 확신합니다.
+- unsure. : 불확실합니다.
+- firmly. : 확고합니다.
