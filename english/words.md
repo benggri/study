@@ -347,3 +347,16 @@ If you pick the right people and give them the opportunity to spread their wings
 - convinced. : 확신합니다.
 - unsure. : 불확실합니다.
 - firmly. : 확고합니다.
+
+- evaluate : 평가하다
+    - to think about something carefully and decide how good or bad it is : 어떤 것을 신중하게 생각하고 그것이 좋은지 나쁜지 결정하다.
+- significant[싴니핖캔트] : 중요한, 의미 있는
+    - important : 중요한
+- drawback : 단점, 장애물
+    - a problem or disadvantage : 문제점 또는 단점
+- factor : 요인, 요소
+    - something that has an effect on a decision or situation : 결정이나 상황에 영향을 미치는 것
+- in favor of : ~에 찬성하여, ~을 지지하여
+    - in support of or to the advantage of : 지지하거나 유리한
+- outweigh : ~보다 더 크다, 능가하다
+    - to be greater or more important than something else : 어떤 것보다 더 크거나 더 중요한
