@@ -360,3 +360,15 @@ If you pick the right people and give them the opportunity to spread their wings
     - in support of or to the advantage of : 지지하거나 유리한
 - outweigh : ~보다 더 크다, 능가하다
     - to be greater or more important than something else : 어떤 것보다 더 크거나 더 중요한
+- ran out of.: 다 떨어졌다.
+- have no more.: 더 이상 없다.
+- excited about.: 기대된다.
+- looking forward to.: 기대하고 있다.
+- wrap up.: 마무리하다.
+- finish.: 끝내다.
+- figured out.: 알아냈다.
+- learned.: 배웠다.
+- send out.: 보내다.
+- distribute.: 배포하다.
+- follow up.: 후속 조치를 취하다.
+- ask more questions.: 더 많은 질문을 하다.
