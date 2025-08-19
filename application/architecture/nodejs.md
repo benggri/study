@@ -25,6 +25,6 @@ flowchart LR
           bep@{ shape: procs, label: "Backend Pods"}
         end
       end
-      fep --- bffp --- bep
+      fep -- graphql --> bffsvc -- gRPC --> besvc
     end
 ```
