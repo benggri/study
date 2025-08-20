@@ -3,7 +3,7 @@
 ```mermaid
 flowchart LR
     classDef all fill:transparent,stroke-width:1px
-    classDef virtual stroke:gray,stroke-width:1px,strokeDasharray: 5 5
+    classDef virtual fill:transparent,stroke:gray,stroke-width:1px,strokeDasharray: 5 5
 
     user@{ icon: "fa:user", form: "circle", label: "User", pos: "b", h: 60 }
     subgraph k8s[Kubernetes]
@@ -53,13 +53,14 @@ flowchart LR
             beSvc --> beDeployment
         end
     end
+
     class k8s all
-    class fe,bff,be all
     class feSvc,bffSvc,beSvc all
     class feDeployment,bffDeployment,beDeployment all
     class fePod,bffPod,bePod all
     class feContainer,bffContainer,beContainer all
     class feContainer1,bffContainer1,beContainer1 all
+
     class fe,bff,be virtual
 
     postgres@{ shape: cyl, label: "PostgreSQL" }
