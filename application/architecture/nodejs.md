@@ -1,6 +1,11 @@
 # Node.js Application Architecture
 
 ```mermaid
+architecture-beta
+    group k8s(logos:kubernetes)[Kubernetes]
+```
+
+```mermaid
 flowchart LR
     classDef all fill:transparent,stroke-width:1px
     classDef virtual fill:transparent,stroke:gray,stroke-width:1px,strokeDasharray: 5 5
